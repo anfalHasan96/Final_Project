@@ -1,11 +1,11 @@
 package com.hotel.demo.Room;
 
 public class RoomInfo {
-    String id;
-    String imageReference;
-    String specifications;
-    String size;
-    String quality;
+    private String id;
+    private Double price;
+    private String specifications;
+    private String size;
+    private String quality;
 
     public String getId() {
         return id;
@@ -15,12 +15,12 @@ public class RoomInfo {
         this.id = id;
     }
 
-    public String getImageReference() {
-        return imageReference;
+    public Double getPrice() {
+        return price;
     }
 
-    public void setImageReference(String imageReference) {
-        this.imageReference = imageReference;
+    public void setPrice(Double price) {
+        this.price = price;
     }
 
     public String getSpecifications() {
